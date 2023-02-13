@@ -61,4 +61,4 @@ do {
 ```
 
 ## Authors
-- anton@stragner.com
+- anton@wollut.com
