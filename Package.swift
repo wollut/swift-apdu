@@ -13,7 +13,7 @@ let package = Package(
         .library(name: "APDU", targets: ["APDU"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/whalescorp/buffbit", .upToNextMajor(from: "0.1.0")),
+        .package(url: "https://github.com/wollut/buffbit", .upToNextMajor(from: "0.1.1")),
     ],
     targets: [
         .target(

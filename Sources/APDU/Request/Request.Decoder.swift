@@ -22,7 +22,7 @@ public extension Request {
 
 internal extension Request.Decoder {
     func decode() throws -> Request {
-        var stream = ByteArrayStream(buffer)
+        var stream = BufferStream(buffer)
 
         func _le(_ bytes: Buffer) throws -> Int? {
             switch bytes.count {
@@ -61,7 +61,7 @@ internal extension Request.Decoder {
             data = nil
             expectedResponseLength = try _le(remainig)
         default:
-            var stream = ByteArrayStream(remainig)
+            var stream = BufferStream(remainig)
             let dataLength: Int
 
             do {

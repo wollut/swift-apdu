@@ -3,10 +3,10 @@
     {
       "identity" : "buffbit",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/whalescorp/buffbit",
+      "location" : "https://github.com/wollut/buffbit",
       "state" : {
-        "revision" : "0c0efb007690758b2fc757d96422870e5ee45368",
-        "version" : "0.1.0"
+        "revision" : "b544e42f0fee048789df716f99dca68bef7a0427",
+        "version" : "0.1.1"
       }
     }
   ],
